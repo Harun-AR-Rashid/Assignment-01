@@ -11,6 +11,9 @@ body {
     height: 625px;
     width: 100%;
     background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +63,7 @@ body {
 /* web-banner section html ends */
 
 .web-content {
-    height: 1400px;
+    height: 100%100ch;
     width: 90%;
     margin: 60px 100px;
 }
@@ -152,7 +155,6 @@ body {
 .target-head {
     height: 100%;
     width: 90%;
-    border: 2px solid red;
     margin: 50px 0px;
 }
 
@@ -164,8 +166,7 @@ body {
 }
 
 .programming-content {
-    margin: 0px 24px;
-    padding: 40px;
+    padding: 20px;
 }
 
 .programming-content h2 {
@@ -186,9 +187,88 @@ body {
     width: 56px;
     height: 56px;
 }
-.programming-content a{
+
+.programming-content a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: bold;
 }
+
 /* Target section css ends */
+
+/* support section css starts */
+#support-container {
+    height: 100%;
+    width: 90%;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.support-cover {
+    height: 100%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+}
+
+.support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 64px;
+}
+
+.support-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center
+}
+
+.support-content p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding: 0px 100px;
+}
+input[type="text"] {
+    box-sizing:content-box;
+    width: 550px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 1px;
+}
+input[type="submit"] {
+    box-sizing:content-box;
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+
+/* support section css ends */
+/* footer sections css starts(challenge section) */
+#footer-section{
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+
+/* footer sections css ends */
