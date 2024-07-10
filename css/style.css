@@ -6,6 +6,7 @@ body {
 }
 
 /* header section css starts */
+
 #hero-banner {
     height: 625px;
     width: 100%;
@@ -18,7 +19,7 @@ body {
 .hero-container {
     height: 100%;
     width: 90%;
-    margin: 60px 100px; 
+    margin: 60px 100px;
     padding: 0px 80px;
     display: flex;
     justify-content: center;
@@ -52,7 +53,7 @@ body {
     font-size: 18px;
     border-radius: 8px;
     letter-spacing: 2px;
-    font-weight:700;
+    font-weight: 700;
 }
 
 /* hero section css ends */
@@ -64,46 +65,55 @@ body {
     align-items: center;
     padding: 0px 48px;
 }
-.web-content{
-    height: 1440px;
+
+.web-content {
+    height: 1400px;
     width: 90%;
-    margin: 60px 100px;   
+    margin: 60px 100px;
 }
-.web-header{
+
+.web-header {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0px 24px;
+    padding: 0px 30px;
+    line-height: 10px;
 }
-.web-header h1{
+
+.web-header h1 {
     font-size: 45px;
     font-weight: 800;
 }
-.web-header p{
+
+.web-header p {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     text-align: center;
 }
-.primary-div{
+
+.primary-div {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     padding: 48px;
 }
-.primary-div .passion h2{
+
+.primary-div .passion h2 {
     font-size: 30px;
     font-weight: 700;
 }
-.primary-div .passion p{
+
+.primary-div .passion p {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     padding: 0px 80px 0px 0px;
 }
-.btn-primary{
+
+.btn-primary {
     height: 48px;
     width: 150px;
     font-size: 17px;
@@ -112,21 +122,41 @@ body {
     font-weight: bold;
     border-radius: 5px;
 }
-.passion-image{
+
+.passion-image {
     height: 270px;
     width: 240px;
 }
-.primary-div .passion-group{
+
+.primary-div .passion-group {
     margin-left: 50px;
 }
-    /* web-banner section css ends */
-    /* my inspiration css starts */
-    #my-inspiration{
-   
-    }
-    .inspiration-head{
-        height: 780px;
-        width: ;
 
-    }
-    /* my inspiraion css ends */
+/* web-banner section css ends */
+/* my inspiration css starts */
+#my-inspiration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px;
+
+}
+
+.inspiration-head {
+    height: 780px;
+    width: 90%;
+}
+
+.inspiration-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 75px;
+}
+
+.video-content {
+    margin-top: 48px;
+}
+
+/* my inspiraion css ends */
