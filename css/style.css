@@ -19,7 +19,6 @@ body {
 .hero-container {
     height: 100%;
     width: 90%;
-    margin: 60px 100px;
     padding: 0px 80px;
     display: flex;
     justify-content: center;
@@ -59,12 +58,6 @@ body {
 /* hero section css ends */
 
 /* web-banner section html ends */
-#web-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 48px;
-}
 
 .web-content {
     height: 1400px;
@@ -84,6 +77,7 @@ body {
 .web-header h1 {
     font-size: 45px;
     font-weight: 800;
+    text-align: center;
 }
 
 .web-header p {
@@ -104,6 +98,7 @@ body {
 .primary-div .passion h2 {
     font-size: 30px;
     font-weight: 700;
+    text-align: left;
 }
 
 .primary-div .passion p {
@@ -111,6 +106,7 @@ body {
     font-weight: 400;
     line-height: 22px;
     padding: 0px 80px 0px 0px;
+    text-align: left;
 }
 
 .btn-primary {
@@ -134,14 +130,6 @@ body {
 
 /* web-banner section css ends */
 /* my inspiration css starts */
-#my-inspiration {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 80px;
-
-}
-
 .inspiration-head {
     height: 780px;
     width: 90%;
@@ -160,3 +148,47 @@ body {
 }
 
 /* my inspiraion css ends */
+/* Target section css starts */
+.target-head {
+    height: 100%;
+    width: 90%;
+    border: 2px solid red;
+    margin: 50px 0px;
+}
+
+.programming-language {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.programming-content {
+    margin: 0px 24px;
+    padding: 40px;
+}
+
+.programming-content h2 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.programming-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.programming-content .image-icon {
+    width: 56px;
+    height: 56px;
+}
+.programming-content a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Target section css ends */
