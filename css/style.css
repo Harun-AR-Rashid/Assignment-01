@@ -65,7 +65,6 @@ body {
 .web-content{
     height: 1400px;
     width: 90%;
-    border: 2px solid red; 
     margin: 60px 100px;   
 }
 .web-header{
@@ -87,7 +86,8 @@ body {
 }
 .primary-div{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     padding: 48px;
 }
@@ -108,9 +108,11 @@ body {
     letter-spacing: 2px;
     cursor: pointer;
 }
+.passion-image{
+    height: 270px;
+    width: 240px;
+}
 .primary-div .passion-group{
     margin-left: 100px;
 }
-
-
     /* web-banner section css ends */
