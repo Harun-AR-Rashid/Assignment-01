@@ -163,10 +163,14 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .programming-content {
-    padding: 20px;
+    height: 330px;
+    width: 33%;
+    padding: 15px;
+    margin: 12px;
 }
 
 .programming-content h2 {
@@ -193,7 +197,27 @@ body {
     font-size: 16px;
     font-weight: bold;
 }
-
+.programming-content .bg-html{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.programming-content .bg-css{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.programming-content .bg-javascript{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    background: rgba(255, 76, 30, 0.05);
+}
 /* Target section css ends */
 
 /* support section css starts */
