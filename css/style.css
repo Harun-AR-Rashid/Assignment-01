@@ -264,9 +264,16 @@ input[type="submit"] {
 /* support section css ends */
 /* footer sections css starts(challenge section) */
 #footer-section{
-    height: 100px;
+    height: 80px;
     width: 100%;
     border: 1px solid red;
+    margin-top: 40px;
+}
+.footer-base{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
