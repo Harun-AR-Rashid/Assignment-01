@@ -266,16 +266,18 @@ input[type="submit"] {
 #footer-section{
     height: 80px;
     width: 100%;
-    border: 1px solid red;
     margin-top: 40px;
+    background: rgb(30, 30, 30, 0.2);
 }
 .footer-base{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 125px;
 }
-
-
-
+.footer-social-icon img{
+    height: 37px;
+    width: 36px;
+}
 /* footer sections css ends */
